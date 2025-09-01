@@ -1,4 +1,4 @@
-# CRUD FastAPI - Médicos
+# CRUD FastAPI - Fastapi + Postgres
 
 ## Descrição
 Um projeto simples de **CRUD (Create, Read, Update, Delete)** feito com **FastAPI** e **SQLModel**, usando PostgreSQL como banco de dados.  
