@@ -1,10 +1,10 @@
-# 🩺 CRUD FastAPI - Médicos
+# CRUD FastAPI - Médicos
 
 ## Descrição
 Um projeto simples de **CRUD (Create, Read, Update, Delete)** feito com **FastAPI** e **SQLModel**, usando PostgreSQL como banco de dados.  
 Esse projeto é ótimo para iniciantes que querem aprender como integrar uma API Python com um banco relacional. 🚀  
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 crud-fastapi/
@@ -22,7 +22,7 @@ crud-fastapi/
 - [Uvicorn](https://www.uvicorn.org/) → Servidor ASGI para rodar a aplicação
 ---
 
-## 🚀 Como Rodar o Projeto
+## Como Rodar o Projeto
 
 ### 1. Clone o repositório
 ```bash
