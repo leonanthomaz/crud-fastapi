@@ -1,0 +1,38 @@
+📌 Dicas para quem está começando com FastAPI + SQLModel 🚀
+
+1. Comece simples  
+   - Não tente fazer tudo de uma vez.  
+   - Entenda primeiro como subir o servidor com FastAPI (`uvicorn main:app --reload`).  
+
+2. Explore o Swagger UI  
+   - Depois de rodar o projeto, acesse:  
+     👉 http://127.0.0.1:8000/docs  
+   - Esse painel é gerado automaticamente e ajuda a testar as rotas sem precisar de Postman.  
+
+3. SQLModel é amigo dos iniciantes  
+   - Ele junta **SQLAlchemy** (banco de dados) e **Pydantic** (validação) em um só.  
+   - Isso simplifica muito a criação de tabelas e os modelos de dados.  
+
+4. Teste cada rota passo a passo  
+   - 1️⃣ Crie um médico com `POST /medicos`  
+   - 2️⃣ Liste com `GET /medicos`  
+   - 3️⃣ Atualize com `PUT /medicos/{id}`  
+   - 4️⃣ Delete com `DELETE /medicos/{id}`  
+
+5. Dica ninja 🥷  
+   - Se não quiser instalar Postgres logo de cara, troca a `DATABASE_URL` por SQLite:  
+     ```python
+     DATABASE_URL = "sqlite:///database.db"
+     ```  
+   - E pronto, roda local sem complicação.  
+
+6. Leia os logs do terminal  
+   - Coloquei `echo=True` no `create_engine`.  
+   - Assim você vê as queries SQL que estão sendo executadas, o que é ótimo pra aprender.  
+
+7. Não tenha medo de errar  
+   - Se der erro de conexão ou senha, é normal.  
+   - Faz parte do processo aprender a configurar o banco.  
+   - Respira, dá um Google, Chatgpt... e segue o jogo!  
+
+✨ Bom estudo e boa sorte na jornada!
